@@ -1,0 +1,98 @@
+:root {
+  --r-main-font: 'Montserrat', sans-serif !important;
+  --r-heading-font: 'Orbitron', sans-serif !important;
+  --r-link-color: #46b237 !important;
+  --r-link-color-hover: #36822c !important;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3 {
+  text-transform: none;
+}
+
+.team-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2em;
+  list-style: none;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member a {
+  color: var(--r-link-color);
+  text-decoration: none;
+}
+
+.team-member a:hover {
+  color: var(--r-link-color-hover);
+}
+
+.team-member .github a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  font-size: 1em;
+}
+
+.avatar {
+  --size: 150px;
+
+  border-radius: 50%;
+  width: var(--size);
+  height: var(--size);
+  object-fit: cover;
+  border: 2px solid #fff;
+}
+
+.logo {
+  --size: 24px;
+  width: var(--size);
+  height: var(--size);
+}
+
+.reveal ol.list-checkmark {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.list-checkmark li {
+  padding-left: 1.5em;
+  text-indent: -1.5em;
+  margin-bottom: 0.5em;
+}
+
+.list-checkmark li::before {
+  content: '✓ ';
+  color: var(--r-link-color);
+  font-weight: bold;
+  padding-right: 0.5em;
+}
+
+.github {
+  font-size: 0.5em;
+}
+
+blockquote.quote {
+  padding-left: 50px;
+  border-left: 4px solid var(--r-link-color);
+  font-family: var(--r-main-font);
+  width: 100%;
+}
+.quote p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1em;
+}
+.quote cite {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 1em;
+  color: var(--r-link-color-hover);
+}
+
