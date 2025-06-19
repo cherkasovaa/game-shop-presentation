@@ -25,6 +25,7 @@
     <div class="slides">
       <!-- Блок 1: Презентация и введение -->
       <section>
+        <!-- Слайн 1: Титульный -->
         <section>
           <h1 class="r-fit-text" style="margin-bottom: 24px;">Game Shop</h1>
           <h2 class="r-fit-text" style="margin-bottom: 48px;">SPA-приложение для магазина видеоигр</h2>
@@ -35,6 +36,8 @@
               href="https://github.com/cherkasovaa/e-commerce-application" target="_blank">Репозиторий</a>
           </p>
         </section>
+
+        <!-- Слайн 2: Команда -->
         <section>
           <h2>Наша команда «Any»:</h2>
 
@@ -49,6 +52,7 @@
                 </a>
               </div>
             </div>
+
             <div class="team-member">
               <img src="./assets/team/anastasiia.jpg" alt="Фото Анастасии" class="avatar">
               <h3>Анастасия</h3>
@@ -58,8 +62,8 @@
                   aissatsana
                 </a>
               </div>
-
             </div>
+
             <div class="team-member">
               <img src="./assets/team/alina.jpg" alt="Фото Алины" class="avatar">
               <h3>Алина</h3>
@@ -73,6 +77,7 @@
           </div>
         </section>
 
+        <!-- Слайн 3: План презентации -->
         <section>
           <h2>План презентации</h2>
           <ol class="list-checkmark">
@@ -90,15 +95,18 @@
             </li>
           </ol>
         </section>
-
       </section>
 
       <!-- Блок 2: Вклад команды -->
       <section>
-        <!-- Слайд 4.1: Сила синергии -->
+        <!-- Слайд 4: Сила синергии -->
         <section>
-          <h2 class="r-fit-text">Сила синергии</h2>
+          <h2 class="r-fit-text">Качество через командную работу</h2>
           <strong class="r-fit-text">Cоздаем современные приложения вместе</strong>
+
+          <p class="r-fit-text" style="font-style: italic; margin: 40px 0;">
+            «Каждый отвечает за свою часть, все отвечают за результат»
+          </p>
 
           <blockquote class='quote'>
             <p>«Талант выигрывает игры, а команда — чемпионаты»</p>
@@ -106,36 +114,32 @@
           </blockquote>
         </section>
 
+        <!-- Слайн 5: От цели к реализации -->
         <section>
-          <h2 class="r-fit-text">Качество через командную работу</h2>
-          <p class="r-fit-text" style="font-style: italic; margin: 40px 0;">
-            «Каждый отвечает за свою часть, все отвечают за результат»
-          </p>
+          <h3>От цели к реализации</h3>
 
-        </section>
-        <section>
           <div style="display: flex; align-items: center; justify-content: space-around; gap: 30px;">
-            <div style="text-align: left; flex-basis: 50%;">
-              <p class="fragment" style="font-size: 0.6em;">
+            <div style="text-align: left; flex-basis: 50%; font-size: 0.55em;">
+              <p class="fragment" data-fragment-index="1">
                 Нашей целью было не просто выполнить ТЗ, а реализовать каждую функцию на <strong>высшем
                   уровне</strong>: с чистым кодом, хорошим UX и без багов.
-              <p class="fragment" style="font-size: 0.6em;">
+              <p class="fragment" data-fragment-index="2">
                 Наш подход — <strong>четкое разделение задач</strong>. Каждая из нас брала на себя ответственность за
                 определенный блок функционала. Это позволило работать параллельно и эффективно.
               </p>
-              <p class="fragment" style="font-size: 0.6em;">
+              <p class="fragment" data-fragment-index="3">
                 Ключом к успеху стали <strong>единые стандарты качества кода</strong> (ESLint, Prettier) и <strong>общие
                   правила работы с Git</strong>, которые мы установили в самом начале.
               </p>
             </div>
-            <div style="flex-basis: 40%;" class="fragment">
+            <div style="flex-basis: 40%;" class="fragment" data-fragment-index="3">
               <img src="./assets/screenshots/catalog.png" alt="Скриншот каталога Game Shop"
                 style="border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.5);">
             </div>
           </div>
         </section>
 
-        <!-- Слайд 4.2: Пример успешной интеграции -->
+        <!-- Слайд 6: Пример успешной интеграции -->
         <section data-transition="slide-in fade-out">
           <h3 class="r-fit-text">Пример: Интеграция модуля «Карточка игры» и «Корзина»</h3>
           <div style="display: flex; align-items: center; justify-content: space-around; gap: 20px; margin-top: 20px;">
@@ -163,51 +167,23 @@
               данных и единому API-клиенту</strong>, который мы настроили для работы заранее.
           </p>
         </section>
-
-        <!-- Слайд 4.3: Пример 2 успешной интеграции -->
-        <!-- <section data-transition="slide-in fade-out">
-          <h3 class="r-fit-text">Пример 2: Интеграция модуля «Страница Деталей Игры» и «Карточка игры»</h3>
-          <div style="display: flex; align-items: center; justify-content: space-around; gap: 20px; margin-top: 20px;">
-
-            <div class="fragment" data-fragment-index="1" style="text-align: center; flex-basis: 47%;">
-              <h4 style="font-size: 0.7em;">Модуль «Страница Деталей»</h4>
-              <p><small>Разрабатывала: <strong>Алина</strong></small></p>
-              <img src="./assets/screenshots/details_page.png" alt="Страница Деталей Игры"
-                style="height: 250px; border-radius: 8px;">
-            </div>
-
-            <div class="fragment" data-fragment-index="3" style="font-size: 5em; color: var(--r-link-color);">+</div>
-
-            <div class="fragment" data-fragment-index="2" style="text-align: center; flex-basis: 47%;">
-              <h4 style="font-size: 0.7em;">Модуль «Карточка»</h4>
-              <p><small>Разрабатывала: <strong>Ксения</strong></small></p>
-              <img src="./assets/screenshots/catalog_game_cards.png" alt="Карточки игр на странице каталога"
-                style="height: 250px; border-radius: 8px;">
-            </div>
-
-          </div>
-          <p class="fragment r-fit-text" data-fragment-index="3" style="margin-top: 20px;">
-            <strong>Результат:</strong> Великолепное взаимодействие модулей между собой.
-          </p>
-        </section> -->
-
       </section>
 
       <!-- Блок 3: Динамика и координация -->
       <section>
-        <!-- Слайд 5.1: Обзор системы работы -->
+        <!-- Слайд 7: Обзор системы работы -->
         <section>
-          <h2 class="r-fit-text">Наша система координации: элементы SCRUM</h2>
+          <h2 class="r-fit-text">Cистема координации: элементы SCRUM</h2>
           <div>
             <div style="text-align: left; font-size: 1rem;">
               <p style="margin-top: 10px; font-size: 1.3rem;">
                 Для организации работы мы использовали элементы гибкой методологии <strong>SCRUM</strong>.
               </p>
               <div class="fragment" data-fragment-index="2">
-                <strong>Наш процесс:</strong>
+                <strong>Процесс:</strong>
                 <ol class="list-checkmark" style="margin-top: 10px;">
                   <li>Работа была разбита на двухнедельные спринты.</li>
-                  <li>В начале каждого спринта мы вместе обсуждали и выбирали задачи из бэклога.</li>
+                  <li>В начале каждого спринта команда обсуждала и выбирали задачи из бэклога.</li>
                   <li>Каждая участница брала задачи, которые хотела и могла выполнить, исходя из своих сильных сторон
                     и желания.
                   </li>
@@ -222,28 +198,27 @@
           </div>
         </section>
 
-        <!-- Слайд 5.2: Инструменты -->
+        <!-- Слайд 8: Инструменты -->
         <section data-transition="slide-in fade-out">
           <h3 class="r-fit-text">Инструменты для координации</h3>
         </section>
+
+        <!-- Слайд 9: Kanban -->
         <section>
-          <div style="margin-top: 20px;">
-            <!-- Kanban -->
-            <div class="fragment">
-              <h4>Kanban-доска на GitHub</h4>
-              <p><small>Наш центр управления задачами</small></p>
-              <p style="font-size: 1rem;">Колонки "To Do", "In Progress", "In Review" и "Done" давали
-                полную прозрачность на каждом этапе.</p>
-              <img src="./assets/screenshots/kanban_board.png" alt="Kanban-доска"
-                style="border-radius: 8px; max-width: 80%;">
-            </div>
+          <div>
+            <h4>Kanban-доска на GitHub</h4>
+            <p><small>Центр управления задачами</small></p>
+            <p style="font-size: 1rem;">Колонки "To Do", "In Progress", "In Review" и "Done" давали
+              полную прозрачность на каждом этапе.</p>
+            <img src="./assets/screenshots/kanban_board.png" alt="Kanban-доска"
+              style="border-radius: 8px; max-width: 80%;">
           </div>
         </section>
+
+        <!-- Слайд 10: Коммуникация -->
         <section>
-          <!-- Коммуникация -->
           <div>
             <h3>Коммуникация</h3>
-            <p><small>Как мы оставались на связи</small></p>
           </div>
           <div style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
             <div class="fragment" style="flex-basis: 50%; text-align: left; font-size: 0.7em;">
@@ -271,10 +246,9 @@
         </section>
       </section>
 
-
       <!-- Блок 4: Техническая реализация -->
       <section>
-        <!-- Слайд 6.1: Технологии и стандарты -->
+        <!-- Слайд 11: Технологии и стандарты -->
         <section>
           <h2 class="r-fit-text">Техническая реализация и стандарты</h2>
           <div
@@ -331,7 +305,7 @@
           </p>
         </section>
 
-        <!-- Слайд 6.2: Архитектура FSD -->
+        <!-- Слайд 12: Архитектура FSD -->
         <section data-transition="slide-in fade-out">
           <h3>Архитектура проекта</h3>
           <h4 class="fragment" data-fragment-index="1">Feature-Sliced Design</h4>
@@ -354,7 +328,7 @@
           </div>
         </section>
 
-        <!-- Слайд 6.3: GitHub -->
+        <!-- Слайд 13: GitHub -->
         <section data-transition="slide-in fade-out">
           <h3 class="r-fit-text">GitHub: центр управления кодом</h3>
           <div
@@ -375,24 +349,22 @@
               <h4>Активность команды</h4>
               <img src="./assets/screenshots/contributors_develop.png" alt="Статистика вкладов"
                 style="border-radius: 8px;">
-              <p style="font-size: 0.7em;">
+              <p style="font-size: 0.6em;">
                 <strong>Примечание:</strong> Количество коммитов отражает индивидуальный стиль работы.
                 <br>
                 Более объективную картину вклада дает <strong>список Pull-реквестов</strong>, где каждая из нас
-                является
-                автором своих фич.
+                является автором своих фич.
               </p>
             </div>
           </div>
         </section>
 
-        <!-- Слайд 6.4: Code Review -->
+        <!-- Слайд 14: Code Review -->
         <section>
           <h3 class="r-fit-text">Code Review: механизм контроля качества</h3>
-
           <div
             style="display: flex; align-items: flex-start; justify-content: space-around; gap: 30px; margin-top: 30px;">
-            <div style="flex-basis: 45%;">
+            <div style="flex-basis: 45%; text-align: left;">
               <p style="margin-bottom: 20px; font-size: 1.7rem;">
                 Ничего не попадало в основную ветку без проверки всех членов команды.</p>
 
@@ -410,12 +382,12 @@
           </div>
         </section>
 
-        <!-- Слайд 6.5: CI/CD и деплой -->
+        <!-- Слайд 15: CI/CD и деплой -->
         <section>
           <h3>Автоматизация: CI/CD с GitHub Actions</h3>
           <div
             style="display: flex; align-items: center; justify-content: space-around; gap: 40px; margin-top: 30px; font-size: 0.5em;">
-            <!-- Схема CI/CD -->
+
             <div style="flex-basis: 50%;">
               <img src="./assets/screenshots/github_ci_cd.png" alt="Github actions" style="max-height: 400px;">
               <p style="font-size: 0.7em; margin-top: 5px;">Наш воркфлоу для автоматической проверки и деплоя.</p>
@@ -444,13 +416,12 @@
           </div>
         </section>
 
-        <!-- Слайд 6.6: README -->
+        <!-- Слайд 16: README -->
         <section>
           <h3>README</h3>
-
           <div
             style="display: flex; align-items: flex-start; justify-content: space-around; gap: 30px; margin-top: 30px;">
-            <div style="flex-basis: 45%;">
+            <div style="flex-basis: 45%; text-align: left;">
               <p style="margin-bottom: 20px; font-size: 1.7rem;"><strong>Хорошая документация</strong> — это часть
                 качественного проекта.
               </p>
